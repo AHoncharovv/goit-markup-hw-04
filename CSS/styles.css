@@ -415,6 +415,11 @@ address {
 .product-item > .product-btn:not(:last-child) {
   margin-right: 8px;
 }
+.product-button:hover,
+.product-button:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .product-button {
   padding: 6px;
   min-width: 73px;
@@ -438,7 +443,8 @@ address {
   border: 1px solid #eeeeee;
   width: 370px;
 }
-.product-list:hover {
+.product-list:hover,
+.product-list:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
