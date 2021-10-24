@@ -212,10 +212,14 @@ ul {
   line-height: 1.71;
   color: var(--text-color);
 }
-.benefits-icon {
-  display: block;
+
+.benefits-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 270px;
   height: 120px;
+  padding: 25px 100px;
   margin-bottom: 30px;
   background-color: var(--button-color);
 }
@@ -286,12 +290,16 @@ ul {
 .team-link > .icon-list:not(:last-child) {
   margin-right: 10px;
 }
+.icon-list {
+  width: 44px;
+  height: 44px;
+}
 .icon-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 44px;
-  height: 44px;
+  width: 100%;
+  height: 100%;
   padding: 12px;
   border-radius: 50%;
 }
