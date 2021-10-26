@@ -81,6 +81,7 @@ ul {
 .header {
   display: flex;
   align-items: center;
+  position: relative;
 }
 .logo {
   font-family: Raleway;
@@ -147,6 +148,14 @@ ul {
   margin-left: auto;
   background-color: transparent;
   fill: var(--icon-color);
+}
+.nav-item .letter {
+  width: 16px;
+  height: 12px;
+}
+.nav-item .smartphone {
+  width: 10px;
+  height: 16px;
 }
 
 /*------------Hero-------------------*/
